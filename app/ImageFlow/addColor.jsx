@@ -9,8 +9,8 @@ export default function ColorPicker() {
       <TouchableOpacity style={[
         styles.smallBox, {
           position: "absolute",
-          left:30,
-          top:20,
+          right:0,
+          top:0,
           backgroundColor: "red",
           }]}
         onPress={() => 
@@ -21,8 +21,8 @@ export default function ColorPicker() {
       <TouchableOpacity style={[
         styles.smallBox, {
           position: "absolute",
-          right:30,
-          top:20,
+          right:100,
+          top:0,
           backgroundColor: "green",
           }]}
         onPress={() => 
@@ -33,22 +33,22 @@ export default function ColorPicker() {
             <TouchableOpacity style={[
         styles.smallBox, {
           position: "absolute",
-          right:30,
-          top:20,
-          backgroundColor: "green",
+          right:200,
+          top:0,
+          backgroundColor:"cyan",
           }]}
         onPress={() => 
         {
-          console.log("Color set to:", "green");
-          setColor("green")
+          console.log("Color set to:", "cyan");
+          setColor("cyan")
         }} >
         </TouchableOpacity>
     </TouchableOpacity>
       <TouchableOpacity style={[
         styles.smallBox, {
           position: "absolute",
-          left:30,
-          bottom:20,
+          right:300,
+          top:0,
           backgroundColor: "blue",
           }]}
         onPress={() => 
@@ -60,8 +60,8 @@ export default function ColorPicker() {
       <TouchableOpacity style={[
         styles.smallBox, {
           position: "absolute",
-          right:30,
-          bottom:20,
+          right:400,
+          top:0,
           backgroundColor: "yellow",
           }]}
         onPress={() => 
@@ -70,59 +70,6 @@ export default function ColorPicker() {
           setColor("yellow")
         }} >
     </TouchableOpacity>
-          <TouchableOpacity style={[
-        styles.smallBox, {
-          position: "absolute",
-          right:30,
-          bottom:20,
-          backgroundColor: "yellow",
-          }]}
-        onPress={() => 
-        {
-          console.log("Color set to:", "yellow");
-          setColor("yellow")
-        }} >
-    </TouchableOpacity>
-          <TouchableOpacity style={[
-        styles.smallBox, {
-          position: "absolute",
-          right:30,
-          bottom:20,
-          backgroundColor: "yellow",
-          }]}
-        onPress={() => 
-        {
-          console.log("Color set to:", "yellow");
-          setColor("yellow")
-        }} >
-    </TouchableOpacity>
-          <TouchableOpacity style={[
-        styles.smallBox, {
-          position: "absolute",
-          right:30,
-          bottom:20,
-          backgroundColor: "yellow",
-          }]}
-        onPress={() => 
-        {
-          console.log("Color set to:", "yellow");
-          setColor("yellow")
-        }} >
-    </TouchableOpacity>
-          <TouchableOpacity style={[
-        styles.smallBox, {
-          position: "absolute",
-          right:30,
-          bottom:20,
-          backgroundColor: "yellow",
-          }]}
-        onPress={() => 
-        {
-          console.log("Color set to:", "yellow");
-          setColor("yellow")
-        }} >
-    </TouchableOpacity>
-
     </SafeAreaView>
   );
 }
