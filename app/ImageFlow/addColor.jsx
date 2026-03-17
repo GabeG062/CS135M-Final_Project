@@ -30,6 +30,19 @@ export default function ColorPicker() {
           console.log("Color set to:", "green");
           setColor("green")
         }} >
+            <TouchableOpacity style={[
+        styles.smallBox, {
+          position: "absolute",
+          right:30,
+          top:20,
+          backgroundColor: "green",
+          }]}
+        onPress={() => 
+        {
+          console.log("Color set to:", "green");
+          setColor("green")
+        }} >
+        </TouchableOpacity>
     </TouchableOpacity>
       <TouchableOpacity style={[
         styles.smallBox, {
@@ -45,6 +58,58 @@ export default function ColorPicker() {
         }}  >
     </TouchableOpacity>
       <TouchableOpacity style={[
+        styles.smallBox, {
+          position: "absolute",
+          right:30,
+          bottom:20,
+          backgroundColor: "yellow",
+          }]}
+        onPress={() => 
+        {
+          console.log("Color set to:", "yellow");
+          setColor("yellow")
+        }} >
+    </TouchableOpacity>
+          <TouchableOpacity style={[
+        styles.smallBox, {
+          position: "absolute",
+          right:30,
+          bottom:20,
+          backgroundColor: "yellow",
+          }]}
+        onPress={() => 
+        {
+          console.log("Color set to:", "yellow");
+          setColor("yellow")
+        }} >
+    </TouchableOpacity>
+          <TouchableOpacity style={[
+        styles.smallBox, {
+          position: "absolute",
+          right:30,
+          bottom:20,
+          backgroundColor: "yellow",
+          }]}
+        onPress={() => 
+        {
+          console.log("Color set to:", "yellow");
+          setColor("yellow")
+        }} >
+    </TouchableOpacity>
+          <TouchableOpacity style={[
+        styles.smallBox, {
+          position: "absolute",
+          right:30,
+          bottom:20,
+          backgroundColor: "yellow",
+          }]}
+        onPress={() => 
+        {
+          console.log("Color set to:", "yellow");
+          setColor("yellow")
+        }} >
+    </TouchableOpacity>
+          <TouchableOpacity style={[
         styles.smallBox, {
           position: "absolute",
           right:30,
