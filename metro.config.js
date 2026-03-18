@@ -1,17 +1,7 @@
-const {getDefaultConfig, mergeConfig} = require('@react-native/metro-config');
+const {getDefaultConfig, } = require("expo/metro-config");
 
-const config = {
-  resolver: {
-    resolveRequest: (context, moduleName, platform) => {
-      if (moduleName === 'index') {
-        return {
-          filePath: require('path').resolve(__dirname, 'app/ImageFlow/Imageflow.jsx'),
-          type: 'sourceFile'
-        };
-      }
-      return context.resolveRequest(context, moduleName, platform);
-    }
-  }
-};
+const config = getDefaultConfig (__dirname);
 
-module.exports = mergeConfig(getDefaultConfig(__dirname), config);
+config.transformer.unstable_allowRequireContext = true;
+
+module.exports = config;
