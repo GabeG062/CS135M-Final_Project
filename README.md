@@ -3,4 +3,4 @@ This program takes an image uploaded from the user, lets the user select from a 
 then displays the complete image.
 ## Videos
 - [Code Demo](not made yet)
-- [Code Walkthrough](not made yet)
+- [Code Walkthrough](https://youtu.be/QLNBUGMX0tY)
